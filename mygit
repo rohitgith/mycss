@@ -3,5 +3,37 @@ git init
 git add README.md
 git commit -m "first commit"
 git branch -M main
-git remote add origin git@github.com:rohitgith/mytestcode.git
+git remote add origin https://github.com/rohitgith/mycss.git
 git push -u origin main
+
+==================================================
+   TESTED
+king@king-ThinkPad-E490:~/Desktop/GCP/github$ git push -u origin main
+Username for 'https://github.com': rohitgith
+Password for 'https://rohitgith@github.com': 
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 332 bytes | 332.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/rohitgith/mycss.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+king@king-ThinkPad-E490:~/Desktop/GCP/github$ 
+======================================================
+
+git remote add origin https://github.com/rohitgith/mycss.git
+
+https://www.cloudbees.com/blog/remote-origin-already-exists-error
+https://stackoverflow.com/questions/16330404/how-to-remove-remote-origin-from-a-git-repository
+
+
+git remote
+git remote -v
+git remote remove origin
+user name : rohitgith
+
+
+
+passord : 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
