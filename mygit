@@ -23,8 +23,8 @@ Branch 'main' set up to track remote branch 'main' from 'origin'.
 king@king-ThinkPad-E490:~/Desktop/GCP/github$ 
 ======================================================
 
-git remote add origin https://github.com/rohitgith/mycss.git
 
+Git Solution link
 https://www.cloudbees.com/blog/remote-origin-already-exists-error
 https://stackoverflow.com/questions/16330404/how-to-remove-remote-origin-from-a-git-repository
 
@@ -33,7 +33,7 @@ git remote
 git remote -v
 git remote remove origin
 user name : rohitgith
+git remote add origin https://github.com/rohitgith/mycss.git
 
 
 
-passord : ghp_UOt5SrdAmEztwqQt5gJgbqavV9mb0Z1NVhj
